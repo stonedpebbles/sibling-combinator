@@ -1,0 +1,14 @@
+ul li {
+    float:left;
+    list-style:none;
+    padding:.5em
+}
+/* 
+ * Select all li children of nav ul that follow an li,
+ * and give them a border. 
+ * This is a sibling combinator css selector, 
+ * and it's supported by older versions of ie
+ */
+ ul > li ~ li {
+    border-left: 1px solid #000;
+}
